@@ -2,6 +2,7 @@
 #  `rails generate active_fedora:model MusicalCollection`
 class MusicalCollection < ActiveFedora::Base
   include Hydra::Works::CollectionBehavior
+  # include Hydra::AccessControls::Permissions
 
   # Define some properties to store:
   #

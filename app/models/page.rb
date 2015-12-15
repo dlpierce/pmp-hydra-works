@@ -2,6 +2,7 @@
 #  `rails generate active_fedora:model Page`
 class Page < ActiveFedora::Base
   include Hydra::Works::FileSetBehavior
+  # include Hydra::AccessControls::Permissions
 
   # Define some properties to store:
   #

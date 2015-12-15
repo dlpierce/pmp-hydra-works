@@ -2,6 +2,7 @@
 #  `rails generate active_fedora:model Section`
 class Section < ActiveFedora::Base
   include Hydra::Works::WorkBehavior
+  # include Hydra::AccessControls::Permissions
   
   # Define some properties to store:
   #
